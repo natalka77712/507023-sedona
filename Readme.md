@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Наталья Костоусова](https://up.htmlacademy.ru/htmlcss/19/user/507023).
-* Наставник: `Николай Думчев`.
+* Наставник: [Николай Думчев](https://htmlacademy.ru/profile/nikopol_freeway).
 
 ---
 
