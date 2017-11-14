@@ -25,9 +25,9 @@
     <main class="container">
 
       <h1 class="visually-hidden">Отели Седоны</h1>
-      <p class="features-main-picture"></p>
-      <img src="img/welcome-sedona.jpg" width="768" height="513" alt="Фоновое изображение Седоны">
-
+      <p class="features-main-picture">
+        <img src="img/welcome-sedona.jpg" width="768" height="513" alt="Фоновое изображение Седоны">
+      </p>
       <section class="features">
         <h2 class="visually-hidden">Преимущества</h2>
         <b class="features-title">Седона-небольшой городок в Аризоне, заслуживающий большего!</b>
@@ -81,10 +81,34 @@
         </ul>
       </section>
 
-      <section class="appointment">
-        <h2>Заинтересовались?</h2>
-        <p class="appointment-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <!-- Здесь будет форма -->
+      <section class="search">
+        <h2>Поиск гостиницы в Седоне</h2>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вас лучшие предложения гостиниц в Седоне</p>
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="search-item">
+            <label for="search-arrival-date">Дата заезда</label>
+            <input id="search-arrival-date" type="text" name="arrival-date" value="24 апреля 2016">
+          </p>
+          <p class="search-item">
+            <label for="search-departure-date">Дата выезда</label>
+            <input id="search-departure-date" type="text" name="departure-date" value="4 июля 2016">
+          </p>
+          <p class="search-item">
+            <label for="search-adult">Взрослые</label>
+            <input id="search-adult" type="number" name="number" value="2">
+          </p>
+          <p class="search-item">
+            <label for="search-children">Дети</label>
+            <input id="search-children" type="number" name="number" value="0">
+          </p>
+          <button class="button" type="submit">Найти</button>
+        </form>
+      </section>
+      <section class="modal modal-map">
+        <h2 class="visually-hidden">Карта Седоны</h2>
+        <p>
+          <img src="img/map.jpg" width="1200" height="473" alt="Подробная карта Седоны">
+        </p>
       </section>
     </main>
     <footer class="main-footer">
