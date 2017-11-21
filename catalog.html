@@ -3,13 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>Отели Седоны</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
   <nav class="main-navigation">
   <a class="main-header-logo">
   <img src="img/index-logo.svg" width="138" height="70" alt="Логотип город Седона">
-</a>
+  </a>
   <ul class="site-navigation">
     <li><a href="info.html">Информация</a></li>
     <li><a href="foto&video.html">Фото и видео</a></li>
@@ -23,7 +26,7 @@
   <section class="filters">
     <h2 class="visually-hidden">Выбор жилья</h2>
     <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-      <fieldset>
+      <fieldset class="sorting-accommodation">
         <legend>Инфраструктура:</legend>
           <ul>
             <li class="filter-option">
@@ -40,7 +43,7 @@
             </li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="sorting-accommodation">
           <legend>Тип жилья</legend>
             <ul>
               <li class="filter-option">
@@ -65,7 +68,7 @@
            </p>
            <input type="range" name="filter-price" min="0" max="3000">
        </fieldset>
-         <button type="submit" class="filter-button button">Показать</button>
+         <button type="submit" class="filter-button-button">Показать</button>
     </form>
 </section>
 
@@ -73,12 +76,17 @@
   <span class="visually-hidden">Сортировка</span>
     <b class="selection-title">Найдено:3</b>
 
-    <span>Сортировка</span>
-      <ul>
-          <li class="selection-item"><a href="#">По цене</a></li>
+    <p>Сортировка</p>
+      <ul class="selection-type">
+          <li class="selection-item active-item"><a href="#">По цене</a></li>
           <li class="selection-item"><a href="#">По типу</a></li>
           <li class="selection-item"><a href="#">По рейтингу</a></li>
-          <li class="selection-item"><a href="#">По возрастанию/убыванию</a></li>
+      </ul>
+      <ul>
+          <li class="selection-item1">
+          <a href="#"><img src="img/icon-up-dir.svg" alt="По возрастанию"></a></li>
+          <li class="selection-item1">
+          <a href="#"><img src="img/icon-down-dir.svg" alt="По убыванию"></a></li>
       </ul>
 </section>
 <section class="catalog">
@@ -91,13 +99,13 @@
             <p class="catalog-category">Гостиница</p>
             <p class="catalog-price">От 3500р.</p>
       </a>
-        <a href="#">Подробнее</a>
-        <a href="#">Забронировать</a>
+          <a href="#" class="more-detailes">Подробнее</a>
+          <a href="#" class="booking-accomodation">Забронировать</a>
           <p class="stars-rating">
-            <span class="visually-hidden">4 звезды</span>
+          <span class="visually-hidden">4 звезды</span>
           </p>  
           <p class="hotel-rating">
-          <p>Рейтинг 8.5</p>
+          <p class="rating-numbers">Рейтинг 8.5</p>
       </li>
       <li class="catalog-item">
       <a href="catalog-item.html">
@@ -105,14 +113,14 @@
             <img src="img/photo-4.jpg" width="135" height="90" alt="Desert Quail Inn">
               <p class="catalog-category">Мотель</p>
               <p class="catalog-price">От 2000р.</p>
-      </a>
-        <a href="#">Подробнее</a>
-        <a href="#">Забронировать</a>
+     </a>
+          <a href="#" class="more-detailes">Подробнее</a>
+          <a href="#" class="booking-accomodation">Забронировать</a>
           <p class="stars-rating">
-            <span class="visually-hidden">3 звезды</span>
+          <span class="visually-hidden">3 звезды</span>
           </p>  
           <p class="hotel-rating">
-          <p>Рейтинг 8.9</p>
+          <p class="rating-numbers">Рейтинг 8.9</p>
       </li>
       <li class="catalog-item">
         <a href="catalog-item.html">
@@ -121,13 +129,13 @@
               <p class="catalog-category">Апартаменты</p>
               <p class="catalog-price">От 4000р.</p>
         </a>
-          <a href="#">Подробнее</a>
-          <a href="#">Забронировать</a>
+            <a href="#" class="more-detailes">Подробнее</a>
+            <a href="#" class="booking-accomodation">Забронировать</a>
             <p class="stars-rating">
-               <span class="visually-hidden">2 звезды</span>
+            <span class="visually-hidden">2 звезды</span>
             </p> 
             <p class="hotel-rating">
-            <p>Рейтинг 9.2</p>
+            <p class="rating-numbers" >Рейтинг 9.2</p>
        </li>
      </ul>
 </section>
