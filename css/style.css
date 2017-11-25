@@ -11,6 +11,9 @@ body {
   text-align: center;
 
   background-color: #ffffff;
+  background-image: url("img/background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -20,13 +23,9 @@ a {
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
+  font-weight: 700;
   color: #000000;
-
   background-color: #ffffff;
-}
-
-.site-navigation {
-  list-style: none;
 }
 
 .site-navigation {
@@ -45,6 +44,7 @@ a {
 .features-title {
   font-size: 21px;
   line-height: 26px;
+  font-weight: 700;
 }
 
 .features-description {
@@ -58,13 +58,19 @@ a {
   background-color: #81b3d2;
   
 }
+
+.features-item-1 {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .features-item-1 h3, h4 {
   font-size: 21px;
   line-height: 21px;  
 }
 
 .features-item1: nth-child(n+3) {
-  background-color: #eeeeee;
+    background-color: #eeeeee;
 }
 
 .question {
@@ -73,6 +79,7 @@ a {
 }
 
 .button {
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 21px;
   line-height: 26px;
   text-align: center;
@@ -80,6 +87,10 @@ a {
   vertical-align: middle;
   text-transform: uppercase;
   border: none;  
+}
+
+.button search-hotels {
+  background-color: #766357;
 }
 
 .button search-hotels:hover {

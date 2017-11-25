@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Отели Седоны</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+  <nav class="main-navigation">
+  <div class="main-header-logo"></a>
+  <div class="main-navigation-wrapper">
+  <div class="container">
+  <ul class="site-navigation"></ul>
+  </div>
+</div>
+</nav>
+</header>
+
+<main class="container">
+
+  <section class="features">
+    <ul class="features-list">
+          <li class="features-item"></li>
+          <li class="features-item1-1"></li>
+          <li class="features-item1-1"></li>
+          <li class="features-item1-1"></li>
+    </ul>
+          <li class="features-item"></li>
+          <li class="features-item1-1"></li>
+          <li class="features-item1-1"></li>
+          <li class="features-item1-1"></li>
+    </ul>
+  </section>
+
+      <section class="search">
+          <p class="search-item"></p>
+          <p class="search-item"></p>
+          <p class="search-item"></p>
+          <p class="search-item"></p>
+     </section>
+      <section class="modal modal-map">
+      </section>
+ </main>
+    <footer class="main-footer">
+      <div class="footer-social">
+        <ul class="social list">
+          <li class="social-button"></li>
+          <li class="social-button"></li>
+           <li class="social-button"></li>
+        </ul>
+      </div>
+      <p class="footer-copyright"> </p>     
+    </footer>
+  </body>
+</html>
