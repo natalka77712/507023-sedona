@@ -153,7 +153,7 @@ background-image{
   border: 2px solid #e5e5e5;
 }
 
-.search-item {
+.search-item, .search-item1 {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -412,3 +412,148 @@ a.booking-accomodation:active {
 .link-academy {
  }
 
+html,
+body {
+  min-width: 1280px;
+  min-height: 2762px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url(../img/background.jpg);
+  background-size: 1372px auto;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+  margin-bottom: 63px;
+
+  /* Временно для сетки */
+  min-height: 56px;
+}
+
+.main-navigation {
+  display: flex; 
+  position: relative;
+     
+ /* Временно для сетки */
+  min-height: 56px;
+  background-color: transparent;
+}
+
+.main-header-logo {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 139px;
+  height: 70px;
+}
+
+.site-navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+  
+  /* Временно для сетки */
+  min-height: 70px;
+}
+
+.features.main-picture {
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.features {
+ }
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+/* Временно для сетки */
+  min-height: 1099px;
+}
+
+.feature-item {
+  width: 400px;
+
+/* Временно для сетки */
+  min-height: 256px;
+}
+
+.features-item1-1 {
+  width: 400px;
+
+/* Временно для сетки */
+  min-height: 335px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px;
+  margin: 0;
+  padding: 0;
+}
+
+.features-item {
+  width: 459px;
+ 
+/* Временно для сетки */
+  min-height: 38px;
+}
+
+.features-item1 {
+   width: 226px;
+
+/* Временно для сетки */
+  min-height: 38px;
+}
+
+.main-footer {
+   padding: 36px 45px 36px 49px;
+   margin-top: 78px;
+
+   /* Временно для сетки */
+   background: none;
+   min-height: 120px;
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  width: 140px;
+  margin-right: 47px;
+
+  /* Временно для сетки */
+  min-height: 21px;
+}
+
+.social list {
+  width: 155px; 
+    
+  /* Временно для сетки */
+  min-height: 48px;
+}
+
+.footer-copyright {
+  width: 200px; 
+  
+  /* Временно для сетки */
+  min-height: 41px;
+}
