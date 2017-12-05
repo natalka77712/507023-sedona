@@ -119,6 +119,8 @@ img {
 }
 
 .promo-foto {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .features-title {
@@ -144,18 +146,10 @@ img {
   padding: 0;
 }
 
-.features-wrapper {
-  display: flex;
-}
-
 .features-list {
-  width: 400px;
-  padding: 45px 47px;
-  color: #333333;
-  background-color: #81b3d2;
-
-  /* Временно для сетки */
-  min-height: 256px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style:none;
 }
 
 .features-foto {
@@ -167,7 +161,7 @@ img {
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
 }
 
 .advantages {
@@ -180,16 +174,16 @@ img {
   padding: 0;
   list-style: none;
   text-align: center;
-    
+
   /* Временно для сетки */
   min-height: 185px;
 }
 
 .advantages-item {
-  width: 400;
+    width: 400px;
   font-weight: 400;
   font-size: 14px;
-  font-size: 21px;
+  line-height: 21px;
   color: #000000;
 
   /* Временно для сетки */
@@ -261,12 +255,8 @@ img {
   padding-bottom: 60px;
 }
 
- /* Временно для сетки */
-  min-height: 257px;
-}
-
 .search-wrapper {
-   width: 576px;
+  width: 576px;
   padding: 0 80px;
   margin-right: auto;
   margin-left: auto;
@@ -355,18 +345,16 @@ img {
 }
 
 .features {
-  display: flex;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
   color: #ffffff;
-  background-color: #81b3d2;
-}
+ }
 
 .features {
-  margin: 0;
-  padding: 45px 0 0;
-  width: 33%;
+/*  margin: 0;
+  padding: 45px 0 0;*/
+  
 }
 
 .features-town h3, span, p {
@@ -385,24 +373,24 @@ img {
 }
 
 .features-foto {
-  width: 67%;
-
+  
 background-image: url(../img/photo-1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: left;
 }
 
-.features-item:first-of-type,
-.features-item:last-of-type {
+.features-item {
   display: flex;
   align-items: center;
-  width: 400px;
-  height: 256px;
+  flex-basis: 400px;
   margin: 0;
-  color: #ffffff;
-  background-color: #81b3d2;
-}
+ }
+.features-item.item-width {
+  display: flex;
+  flex-wrap: wrap;
+    flex-basis: 100%;
+ }
 
 .features-item p, span1 {
   font-size: 14px;
@@ -429,13 +417,6 @@ background-position: left;
   background-image: url(../img/photo-2.jpg);
   background-position: left;
   background-repeat: no-repeat;
-}
-
-.features-list {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .features-list1 {
@@ -472,7 +453,7 @@ background-position: left;
 }
 
 .features-item h3,
- features-item1-1 h4 {
+.features-item1-1 h4 {
   margin: 0;
   margin: 45px auto 65px;
   width: 155px;
@@ -508,13 +489,8 @@ background-position: left;
   list-style: none;
 }
 
-.advanteges .features-item1-1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 400;
-  height: 256px;
+.features-list .features-item (2n+1) {
+  width: 400px;
   padding-top: 47px;
   padding-bottom: 61px;
   background-color: #eeeeee;
@@ -857,7 +833,7 @@ background-position: left;
   cursor: pointer;
 }
 
-filter.button-button {
+.filter.button-button {
   font: inherit;
   color: #ffffff;
   text-transform: uppercase;
@@ -920,7 +896,7 @@ filter.button-button {
 }
 
 .catalog-category p,
-.catalog-price p{
+.catalog-price p {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -1055,4 +1031,4 @@ a.booking-accomodation:active {
   text-align: center;
   background-color: #f2f2f2;
 }
-}
+
