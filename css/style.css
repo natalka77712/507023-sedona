@@ -119,8 +119,15 @@ img {
 }
 
 .promo-foto {
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 .features-title {
@@ -150,12 +157,14 @@ img {
   display: flex;
   flex-wrap: wrap;
   list-style:none;
+  padding-left: 0;
 }
 
 .features-main {
   overflow: hidden;
   width: 400px;
   height: 260px;
+  color: #ffffff;
   background-color: #81b3d2;
 }
 
@@ -173,100 +182,37 @@ img {
   color: #ffffff;
 }
 
-.advantages {
-  margin-bottom: 80px;
-}
-
 .advantages-list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
-
-  /* Временно для сетки */
-  min-height: 185px;
+  min-height: 254px;
 }
 
 .advantages-item {
-    width: 400px;
+  width: 400px;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #000000;
-
-  /* Временно для сетки */
-  min-height: 185px;
 }
 
-.advantages h4 {
+.advantages-list h4 {
   font-weight: 700;
   font-size: 21px;
   color: #000000;
 }
 
-.advantages p {
+.advantages-item p {
   color: #333333;
-}
-
-.advantages1 {
-  color: #333333;
-}
-
-.advantages1-list {
- display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
- 
- /* Временно для сетки */
-  min-height: 141px;
-}
-
-.advantages1-item {
-  width: 400;
-  font-weight: 400;
-  font-size: 14px;
-  font-size: 21px;
-  color: #000000;
-
-  /* Временно для сетки */
-  min-height: 141px;
-}
-
-.advantages h4 {
-  font-weight: 700;
-  font-size: 21px;
-  color: #000000;
-}
-
-.advantages p {
-  color: #333333;
-}
-
-.advantages1 {
-  color: #333333;
-}
-
-.advantages1-item.wrapper {
-  display: flex;
-  margin-bottom: 52px;
-}
-
-.advantages1 {
-  background-color: #eeeeee;
-  width: 400px;
-  padding-top: 50px;
-  padding-right: 76px;
-  padding-left: 76px;
-  padding-bottom: 60px;
 }
 
 .good-qualities {
+  flex-basis: 400px;
   color: #000000;
   background-color: #eeeeee;
-  flex-basis: 400px;
 }
 
 .good-qualities h3 {
@@ -283,119 +229,25 @@ img {
 
 .modal-map {
   height: 475px;
-  position: relative;
-}
-
-.features {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #ffffff;
- }
-
-.features {
-/*  margin: 0;
-  padding: 45px 0 0;*/
-  
-}
-
-.features-town h3, span, p {
-  margin: 0 auto;
-  padding: 0;
-}
-
-.features-town p {
-  margin: 0 auto;
-  padding: 27px 15px 27px 15px;
-  max-width: 300px;
-}
-
-.features-town p {
-  width: 330px;
-}
-
-.features-foto {
-  
-background-image: url(../img/photo-1.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: left;
 }
 
 .features-item {
   display: flex;
   align-items: center;
   flex-basis: 400px;
-  margin: 0;
- }
+  }
 .features-item.item-width {
   display: flex;
   flex-wrap: wrap;
-    flex-basis: 100%;
  }
 
-.features-item p, span1 {
+.features-item p {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
  }
 
-.features-item1-1, h3, h4 {
-  font-size: 21px;
-  line-height: 21px; 
-  font-weight: 700;
-}
-
-.features-item: first-of-type(1), {
-  width: 800px;
-  min-height: 256px;
-  background-image: url(../img/photo-1.jpg);
-  background-position: left;
-  background-repeat: no-repeat;
-}
-.features-item: first-of-type(2), {
-  width: 800px;
-  min-height: 256px;
-  background-image: url(../img/photo-2.jpg);
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
-.features-list1 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.features-list-1 {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.features-list-1 .features-item1-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 400px;
-  min-height: 335px;
-}
-
-.features-item p, span,
-.features-item1-1 p, span, {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #000000;
-}
-
-.features-item h3,
-.features-item1-1 h4 {
+.features-item h3, {
   margin: 0;
   margin: 45px auto 65px;
   width: 155px;
@@ -403,38 +255,21 @@ background-position: left;
   line-height: 21px;
 }
 
-.recommendations-list {
+.qualities-list {
   display: flex;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  min-height: 255px;
 }
 
-.recommendations-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 33.3%;
-  height: 330px;
-  padding: 55px 60px 85px;
-  box-sizing: border-box;
-  background-color: #ffffff;
-}
-
-.advanteges {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.features-list .features-item (2n+1) {
+.qualities-list.good-qualities {
   width: 400px;
-  padding-top: 47px;
-  padding-bottom: 61px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
   background-color: #eeeeee;
 }
 
@@ -494,13 +329,14 @@ background-position: left;
 .search-form {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 316px;
   width: 458px;
   height: 282px;
   padding: 55px;
   background-color: #ffffff;
+  padding-top: 0;
 }
 
 .search input {
@@ -579,7 +415,6 @@ background-position: left;
   text-transform: uppercase;
   text-align: center;
   vertical-align: middle;
-
 }
  
 .button-search:hover,
@@ -660,18 +495,19 @@ background-position: left;
 }
 
 .main-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin-top: 0;
+  padding: 36px 73px;
+  color: #000000;
   background-color: rgba(255, 255, 255, 0.9);
-   padding: 36px 45px 36px 49px;
-  margin-top: 78px;
-  position: absolute;
 
   width: 1200px;
   height: 120px;
+}
 
-  bottom: 0;
+.main-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .website-button {
@@ -734,7 +570,6 @@ background-position: left;
 
   margin-left: 10px;
 }
-
 .inner-page {
   /* Временно для сетки */
   background-image: url("..img/background.jpg");
