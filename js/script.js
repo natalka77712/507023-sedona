@@ -1,7 +1,7 @@
   var search = document.querySelector(".button-hotels");
   var popup = document.querySelector(".search-form");
-  var arrival-date = document.querySelector("[name=arrival-date]");
-  var departure-date = document.querySelector("[name=departure-date]");
+  var arrival_date = document.querySelector("[name=arrival-date]");
+  var departure_date = document.querySelector("[name=departure-date]");
   var adults = document.querySelector("[name=adults]");
   var children = document.querySelector("[name=children]");
   
@@ -14,8 +14,9 @@
 });
 
   popup.addEventListener("submit", function () {
-  if (!arrival-date.value || !departure-date.value || !adults.value
+  if (!arrival_date.value || !departure_date.value || !adults.value
    || !children.value ) {
   evt.preventDefault();
 }
 });
+
